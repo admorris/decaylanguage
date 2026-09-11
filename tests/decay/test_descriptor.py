@@ -90,6 +90,7 @@ def test_descriptor_parser_alternative(conventional: str, alternative: str):
         "D*+ -> (D0 -> (K_S0 -> pi+ pi-) (pi0 -> gamma gamma)) pi+",
         "B0 -> (D- -> K+ pi- pi-) (tau+ -> anti-nu_tau pi+ pi+ pi-) nu_tau",
         "B_s0 -> (phi -> K+ K-) (phi' -> pi+ pi- pi0)",
+        "B_s0 -> (phi -> K+ K-) (phi -> K+ K-)",
     ],
 )
 def test_from_string_to_string(descriptor: str):
