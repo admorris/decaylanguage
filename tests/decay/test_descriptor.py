@@ -86,6 +86,7 @@ def test_descriptor_parser_alternative(conventional: str, alternative: str):
 @pytest.mark.parametrize(
     "descriptor",
     [
+        "D0 -> K- pi+",
         "D0 -> (K_S0 -> pi+ pi-) (pi0 -> gamma gamma)",
         "D*+ -> (D0 -> (K_S0 -> pi+ pi-) (pi0 -> gamma gamma)) pi+",
         "B0 -> (D- -> K+ pi- pi-) (tau+ -> anti-nu_tau pi+ pi+ pi-) nu_tau",
